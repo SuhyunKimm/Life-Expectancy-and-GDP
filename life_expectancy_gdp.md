@@ -315,6 +315,7 @@ for r in range(3) :
         axes[r][c].set_title(f'{countries[i]}\'s Life expectancy against its GDP')
         axes[r][c].set_xlabel('GDP')
         axes[r][c].set_ylabel('Life expectancy')
+        i+=1
 plt.show()
 ```
 
@@ -324,7 +325,7 @@ plt.show()
     
 
 
-From these graphs, it is hard to determine if there is a relationship between each country's GDP and its life expectancy. Therefore, I decided to combine all six graphs into one, using different colors of dots for each country to better visualize the data.
+From these graphs, I observed positive correlations between GDP and life expectancy across all countries.
 
 
 ```python
